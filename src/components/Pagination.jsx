@@ -38,6 +38,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
             results
           </p>
         </div>
+        
         <div>
           <span className="relative z-0 inline-flex rounded-md shadow-sm -space-x-px">
             {pageNumbers.map((number) => (

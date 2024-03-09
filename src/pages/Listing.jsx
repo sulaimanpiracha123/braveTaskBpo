@@ -52,7 +52,7 @@ const Listing = () => {
     };
 
     fetchData(); // Call the fetchData function when the component mounts
-  }, []);
+  }, [currentPage]);
   const handleGenderFilterChange = (event) => {
     const selectedGender = event.target.value;
     setGenderFilter(selectedGender);
